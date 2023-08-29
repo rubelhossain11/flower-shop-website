@@ -37,9 +37,7 @@ body {
   border-radius: 5px;
 }
 /* featured section */
-/* .featured{
-    padding: 100x;
-} */
+
 .fea-content {
   text-align: center;
   margin-top: 100px;
@@ -48,27 +46,25 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
-ul > li{
+ul > li {
   text-align: center;
   list-style: none;
   margin-right: 200px;
- 
 }
-.three-img{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 20px;
-   max-width: 800px;
-   margin: 30px auto;
+.three-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 30px auto;
 }
 .img-1 {
   background-color: blue;
   border-top-left-radius: 150px;
   border-top-right-radius: 150px;
-  
+
   padding-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
@@ -85,11 +81,93 @@ ul > li{
   background-color: darkorchid;
   border-top-left-radius: 150px;
   border-top-right-radius: 150px;
-  
+
   padding-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
 }
-.anchor{
-   
+.anchor {
+}
+/* logo section */
+.section-bg {
+  background-color: rgb(179, 184, 181);
+  max-width: 1150px;
+  margin: 90px auto;
+  border-radius: 10px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: 50px 40px;
+}
+.descrip {
+  margin-top: 10px;
+}
+
+/* hot deal section */
+.span {
+  color: brown;
+  font-weight: bold;
+}
+.second-hea {
+  margin-bottom: 10px;
+}
+.hot-deal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: gold;
+  text-align: center;
+  padding: 40px;
+}
+/* my section */
+.my-section {
+  margin-top: 50px;
+  background-color: yellowgreen;
+}
+
+.hobbey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.my-img {
+  width: 800px;
+  border-radius: 20px;
+}
+.text-ali {
+  text-align: center;
+  padding-top: 20px;
+}
+.hobbey {
+  margin-top: 20px;
+}
+/* instagram  section*/
+.ins-section {
+  margin-top: 50px;
+}
+.ins-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.four-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 800px;
+  margin: 30px auto;
+}
+.same {
+  width: 270px;
+  border-radius: 10px;
+}
+/* backgroound image section */
+.background {
+ background-image: url(../);
 }
